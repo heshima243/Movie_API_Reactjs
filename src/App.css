@@ -239,22 +239,28 @@ h1 {
 
 
 
-footer {
-  background-color: #333; /* Couleur de fond du footer */
-  color: white; /* Couleur du texte */
-  /* Espacement intérieur du footer */
-  width: 100%; /* Largeur du footer à 100% de la largeur de la fenêtre */
-  position:absolute; /* Position absolue par rapport à son parent */
-  padding: 20px;
-   z-index: 0;
-  margin-bottom: 0; /* Alignement en bas */
-  left: 0; /* Alignement à gauche */
-  text-align: center;
-  justify-content: center;
-  margin: 0;
-  padding: 20px;
+.content {
+  flex: 1;
 }
+.footer {
+  
+ 
+  color: #1d1313;
+  font-size: 1.3rem;
+  text-align: center;
 
+}
+.footer p {
+  margin-bottom: 0;
+}
+.footer a {
+  color: #1d1313;
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer a:hover {
+  text-decoration: underline;}
 
 
 

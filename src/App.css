@@ -23,7 +23,7 @@ body {
 }
 
 .app {
-  padding: 4rem;
+  /* padding: 4rem; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,11 +46,11 @@ h1 {
 
 .search {
   width: 71%;
-  margin: 4rem 0 2rem;
+  /* margin: 4rem 0 2rem; */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem 1.75rem;
+  padding: 1rem 1.3rem;
   border-radius: 3rem;
   background: silver; /* Changé la couleur de fond en argent */
   box-shadow: 5px 5px 7px var(--button-shadow), -5px -5px 7px var(--button-shadow);
@@ -223,9 +223,14 @@ h1 {
   color: #f9d3b4;
 }
 
+.movie:hover div:nth-of-type(2) {
+  /* height: 100%;
+  opacity: 0.3; */
+}
 
-
-
+.movie:hover div:nth-of-type(3) {
+  /* background-color: transparent; */
+}
 
 .movie:hover div:nth-of-type(1) {
   opacity: 1;
@@ -237,11 +242,12 @@ h1 {
 footer {
   background-color: #333; /* Couleur de fond du footer */
   color: white; /* Couleur du texte */
-  padding: 20px; /* Espacement intérieur du footer */
+  /* Espacement intérieur du footer */
   width: 100%; /* Largeur du footer à 100% de la largeur de la fenêtre */
-  position:fixed; /* Position absolue par rapport à son parent */
-  z-index: 0;
-  bottom: 0; /* Alignement en bas */
+  position:absolute; /* Position absolue par rapport à son parent */
+  padding: 20px;
+   z-index: 0;
+  bottom: -130%; /* Alignement en bas */
   left: 0; /* Alignement à gauche */
   text-align: center;
   justify-content: center;

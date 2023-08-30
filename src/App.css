@@ -247,7 +247,7 @@ footer {
   position:absolute; /* Position absolue par rapport à son parent */
   padding: 20px;
    z-index: 0;
-  bottom: -130%; /* Alignement en bas */
+  margin-bottom: 0; /* Alignement en bas */
   left: 0; /* Alignement à gauche */
   text-align: center;
   justify-content: center;
@@ -266,7 +266,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   .app {
-    padding: 4rem 2rem;
+    /* padding: 4rem 2rem; */
   }
 
   .search {
@@ -282,11 +282,12 @@ footer {
     width: 20px;
     height: 20px;
   }
+ 
 }
 
 @media screen and (max-width: 400px) {
   .app {
-    padding: 4rem 1rem;
+    /* padding: 4rem 1rem; */
   }
 
   h1 {
@@ -301,4 +302,5 @@ footer {
     width: "100%";
     margin: 1rem;
   }
+  
 }

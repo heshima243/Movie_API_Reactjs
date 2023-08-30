@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Input from "./components/Input";
 
 // 364509f8 364509f8
-const API_URL = "http://www.omdbapi.com/?apikey=364509f8";
+const API_URL = "https://www.omdbapi.com/?apikey=364509f8";
 
 const Home = () => {
   const [movie, setMovie] = useState([]);

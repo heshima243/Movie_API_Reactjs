@@ -298,5 +298,8 @@ footer {
     width: "100%";
     margin: 1rem;
   }
+  footer{
+    margin:0;
+  }
   
 }

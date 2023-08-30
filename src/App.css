@@ -18,7 +18,7 @@
 
 body {
   font-family: var(--font-roboto);
-  background-color: var(--text-color);
+  background-color: var(--background-color);
   color: var(--text-color);
 }
 
@@ -252,6 +252,7 @@ footer {
   text-align: center;
   justify-content: center;
   margin: 0;
+  padding: 20px;
 }
 
 
@@ -299,7 +300,7 @@ footer {
     margin: 1rem;
   }
   footer{
-    margin:0;
+    margin: 0;
   }
   
 }
